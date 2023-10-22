@@ -27,8 +27,8 @@ void loop()
 
     // red->green
     for (int i = 0; i < m; ++i) {
-    --redValue;
-    ++greenValue;
+        --redValue;
+        ++greenValue;
         analogWrite(RED, redValue);
         analogWrite(GREEN, greenValue);
         delay(delayTime);
