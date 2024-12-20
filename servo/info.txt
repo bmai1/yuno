@@ -1,1 +1,0 @@
-easiest to just use arduino ide and download servo lib in manager
