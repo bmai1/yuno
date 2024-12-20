@@ -1,16 +1,5 @@
-
-// Credit:
-// Midi to Arduino Converter
-//     - Andy Tran (extramaster), 2015
-// https://www.extramaster.net/tools/midiToArduino/
-//
-// Process:
-// Midi -> Midi tracks -> Note mappings -> Frequency
-
 int tonePin = 8;
-void setup() {
-
-}
+void setup() {}
 
 void midi() {
     tone(tonePin, 311, 76.5305625);
@@ -2001,7 +1990,6 @@ void midi() {
 }
 
 void loop() {
-    // Play midi
     midi();
 }
 
